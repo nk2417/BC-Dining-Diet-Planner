@@ -1,0 +1,159 @@
+{
+  "title": "Student Meal Planning",
+  "form": {
+    "fields": [
+      {
+        "id": "allergies",
+        "label": "Do you have any allergies?",
+        "type": "select",
+        "options": [
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "yes",
+            "label": "Yes"
+          }
+        ],
+        "hasConditionalField": true,
+        "conditionalField": {
+          "id": "allergyInput",
+          "type": "text",
+          "placeholder": "Enter an allergy"
+        }
+      },
+      {
+        "id": "dietPlan",
+        "label": "Choose diet plan:",
+        "type": "select",
+        "options": [
+          {
+            "value": "",
+            "label": "Please select..."
+          },
+          {
+            "value": "protein",
+            "label": "Protein focused"
+          },
+          {
+            "value": "keto",
+            "label": "Keto"
+          },
+          {
+            "value": "calorie",
+            "label": "Calorie Deficit"
+          },
+          {
+            "value": "other",
+            "label": "Other"
+          }
+        ],
+        "hasConditionalField": true,
+        "conditionalField": {
+          "id": "otherDietText",
+          "type": "text",
+          "placeholder": "Please specify your diet plan"
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "calorie": {
+      "name": "Calorie Deficit",
+      "daily": {
+        "calories": {
+          "min": 1500,
+          "max": 2000
+        },
+        "protein": {
+          "min": 120,
+          "max": 150,
+          "percentage": 25
+        },
+        "fat": {
+          "min": 50,
+          "max": 75,
+          "percentage": 25
+        },
+        "carbs": {
+          "min": 175,
+          "max": 250,
+          "percentage": 50
+        },
+        "cholesterol": {
+          "min": 0,
+          "max": 300
+        },
+        "sodium": {
+          "min": 0,
+          "max": 2300
+        }
+      }
+    },
+    "protein": {
+      "name": "Protein Focused",
+      "daily": {
+        "calories": {
+          "min": 2500,
+          "max": 3000
+        },
+        "protein": {
+          "min": 250,
+          "max": 300,
+          "percentage": 40
+        },
+        "fat": {
+          "min": 55,
+          "max": 66,
+          "percentage": 20
+        },
+        "carbs": {
+          "min": 250,
+          "max": 300,
+          "percentage": 40
+        },
+        "cholesterol": {
+          "min": 0,
+          "max": 300
+        },
+        "sodium": {
+          "min": 0,
+          "max": 2300
+        }
+      }
+    },
+    "keto": {
+      "name": "Keto",
+      "daily": {
+        "calories": {
+          "min": 2000,
+          "max": 2500
+        },
+        "protein": {
+          "min": 100,
+          "max": 125,
+          "percentage": 20
+        },
+        "fat": {
+          "min": 175,
+          "max": 219,
+          "percentage": 75
+        },
+        "carbs": {
+          "min": 25,
+          "max": 31,
+          "percentage": 5
+        },
+        "cholesterol": {
+          "min": 0,
+          "max": 300
+        },
+        "sodium": {
+          "min": 0,
+          "max": 2300
+        }
+      }
+    }
+  }
+}

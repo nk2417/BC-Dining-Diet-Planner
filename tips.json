@@ -1,0 +1,40 @@
+{
+  "nutritional_tips": {
+    "calorie": [
+      "Track your calorie intake using a reliable app or journal.",
+      "Eat more vegetables to feel fuller on fewer calories.",
+      "Opt for lean proteins like chicken breast and fish.",
+      "Use smaller plates to help control portion sizes.",
+      "Drink water before meals to reduce hunger.",
+      "Snack on low-calorie, high-fiber foods like carrots or air-popped popcorn.",
+      "Limit sugary drinks and opt for unsweetened beverages."
+    ],
+    "protein": [
+      "Include a source of protein in every meal, such as eggs, tofu, or legumes.",
+      "Use protein shakes or bars to supplement your intake.",
+      "Choose Greek yogurt over regular yogurt for higher protein content.",
+      "Snack on protein-rich options like nuts, seeds, or hard-boiled eggs.",
+      "Cook with protein-rich grains like quinoa or farro.",
+      "Combine plant proteins like beans and rice for a complete protein source.",
+      "Prioritize lean meats and seafood to avoid excessive saturated fats."
+    ],
+    "keto": [
+      "Focus on high-fat, low-carb foods like avocado, cheese, and olive oil.",
+      "Replace starchy sides with cauliflower rice or zucchini noodles.",
+      "Choose fatty cuts of meat like ribeye steak and pork belly.",
+      "Avoid sugary fruits and opt for berries in moderation.",
+      "Use full-fat dairy products instead of low-fat options.",
+      "Incorporate healthy fats from nuts, seeds, and coconut oil.",
+      "Be mindful of hidden carbs in sauces, dressings, and processed foods."
+    ],
+    "general_tips": [
+      "Drink at least 8 cups of water daily to stay hydrated.",
+      "Eat a variety of colorful fruits and vegetables for diverse nutrients.",
+      "Plan meals ahead to avoid impulsive unhealthy choices.",
+      "Limit processed foods and prioritize whole foods.",
+      "Chew food slowly to improve digestion and reduce overeating.",
+      "Balance macronutrients with carbs, proteins, and fats in appropriate proportions.",
+      "Avoid skipping meals to maintain steady energy levels."
+    ]
+  }
+}
